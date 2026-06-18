@@ -38,13 +38,13 @@ box-shadow - a shadow behind the element itself. you usually want this set to no
  
 /* FONTS - Import from Google Fonts */
  
-@import url('FONT LINK');
+@import url('https://fonts.googleapis.com/css2?family=Engagement&display=swap');
  
-body {font-family: INPUT HERE;}
+body {font-family: "Engagement", cursive;}
  
-.topbar {font-family: INPUT HERE;}
+.topbar {font-family: "Engagement", cursive;}
  
-.navbar {font-family: INPUT HERE;}
+.navbar {font-family: "Engagement", cursive;}
 
 /* BACKGROUNDS 
 The first one is for PC, the second is for mobile. You can also use an image in the second one
