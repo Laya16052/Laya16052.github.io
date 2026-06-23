@@ -528,7 +528,7 @@ text-shadow: none !important; }
 .mound-grid {
 background: #05004f !important;
 color: #ff007f !important;
-border: none !important;
+border: 3px solid #ff007f !important;
 border-radius: 0px !important; }
 
 /* CAVE & MOUND COVERS
