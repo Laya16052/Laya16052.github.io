@@ -547,7 +547,7 @@ content: url('https://i.imgur.com/TLQWFRx.png')!important;
 width: 75px;
 height: 75px; }
 
-a[href$="543565"]>div.cave-grid>img {
+a[href$="CAVEID"]>div.cave-grid>img {
 content: url('IMG LINK')!important;
 width: 258px !important;
 height: auto !important; }
@@ -563,12 +563,12 @@ height: auto !important; }
 
 div.cave-grid>img[src$="nestingbanner.png"] {
 	content: url('https://i.imgur.com/vRPTkLG.png')!important; }
-a[href$="unsorted.php?id=577399"]>div.cave-grid>img{
+a[href$="unsorted.php?id=596580"]>div.cave-grid>img{
 content: url('https://i.imgur.com/xsyACFs.png')!important;
 width: 75px;
 height: 75px;}
 
-a[href*="lionoverview.php?id=577399"]>div.cave-grid>img {
+a[href*="lionoverview.php?id=596580"]>div.cave-grid>img {
 content: url('https://i.imgur.com/AT6L4Fu.png')!important;
 width: 75px;
 height: 75px; }
