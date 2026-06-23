@@ -887,7 +887,7 @@ or fill out both i can't stop you but it'll be a clusterfuck */
 
 /* MEMBER ONLINE */
 .member-online {
-    background: #HEX;
+    background: #024b30;
     content:url('none')!important;
 	border-radius: 0px;
     width:40px!important;
@@ -897,7 +897,7 @@ or fill out both i can't stop you but it'll be a clusterfuck */
 	
 /* MEMBER OFFLINE */
 .member-offline {
-    background: #HEX;
+    background: #4b0c02;
     content:url('none')!important;
 	border-radius: 0px;
     width:40px!important;
