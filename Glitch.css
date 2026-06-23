@@ -745,7 +745,7 @@ transition: 1s }
 height: 250px; }
    
 .largebox {
-float: top;
+float: left;
 background: #000000 !important;
 color: #ff007f !important;
 border: 1px solid #ff007f !important;
@@ -762,7 +762,7 @@ overflow-y: auto;
 height: 250px; }
    
 .mediumbox {
-float: left;
+float: right;
 background: #000000 !important;
 color: #ff007f !important;
 border: 1px solid #ff007f !important;
