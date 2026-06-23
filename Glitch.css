@@ -563,6 +563,7 @@ height: auto !important; }
 
 div.cave-grid>img[src$="nestingbanner.png"] {
 	content: url('https://i.imgur.com/vRPTkLG.png')!important; }
+
 a[href$="unsorted.php?id=596580"]>div.cave-grid>img{
 content: url('https://i.imgur.com/xsyACFs.png')!important;
 width: 75px;
@@ -573,13 +574,13 @@ content: url('https://i.imgur.com/AT6L4Fu.png')!important;
 width: 75px;
 height: 75px; }
 
-a[href$="unsorted-beetles.php?id=252304"] img {
+a[href$="unsorted-beetles.php?id=261859"] img {
 content:url('https://i.imgur.com/ZpJA6vb.png') !important;
 background-size: cover;
 width: 100%;
 height: auto; } 
 
-a[href$="mound.php?id=252304"] img {
+a[href$="mound.php?id=261859"] img {
 content:url('https://i.imgur.com/ZpJA6vb.png') !important;
 background-size: cover;
 width: 100%;
