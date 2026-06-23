@@ -454,39 +454,39 @@ you can also edit these if you want to add effects to YOUR player image and don'
 
 img[src$="icon_den_message.png"] {
 content: url('https://i.imgur.com/RbAkz5s.png') !important;
-width: 40px !important; }
+width: 30px !important; }
 
 img[src$="icon_den_gift.png"] {
 content: url('https://i.imgur.com/yCqhqMs.png') !important;
-width: 40px !important; }
+width: 30px !important; }
 
 img[src$="icon_den_trade.png"] {
 content: url('https://i.imgur.com/wYvGDod.png') !important; 
-width: 40px !important; }
+width: 30px !important; }
 
 img[src$="icon_den_wishlist.png"] {
 content: url('https://i.imgur.com/U7EP8bM.png') !important;
-width: 40px !important; }
+width: 30px !important; }
 
 img[src$="icon_den_viewtrade.png"] {
 content: url('https://i.imgur.com/wYvGDod.png') !important;
-width: 40px !important; }
+width: 30px !important; }
 
 img[src$="icon_den_gift.png"] {
 content: url('https://i.imgur.com/yCqhqMs.png') !important;
-width: 40px !important; }
+width: 30px !important; }
 
 img[src$="icon_den_block.png"] {
 content: url('https://i.imgur.com/kjikLJI.png') !important;
-width: 40px !important; }
+width: 30px !important; }
 
 img[src$="icon_den_friend.png"] {
 content: url('https://i.imgur.com/klr0PmJ.png') !important;
-width: 40px !important; }
+width: 30px !important; }
 
 img[src$="donator.png"] {
 content: url('https://i.imgur.com/xQgxZqI.png') !important;
-width: 40px !important; }
+width: 30px !important; }
 
 /* LION AND USER AVATAR OPACITY */
    
