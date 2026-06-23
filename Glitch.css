@@ -864,7 +864,7 @@ or fill out both i can't stop you but it'll be a clusterfuck */
 
 /* MEMBER ONLINE */
 .member-online {
-    background: none !important;
+    background: #HEX;
     content:url('https://i.imgur.com/vWUAiLX.png')!important;
 	border-radius: 0px;
     width:40px!important;
@@ -874,7 +874,7 @@ or fill out both i can't stop you but it'll be a clusterfuck */
 	
 /* MEMBER OFFLINE */
 .member-offline {
-    background: none !important;
+    background: #HEX;
     content:url('https://i.imgur.com/klr0PmJ.png')!important;
 	border-radius: 0px;
     width:40px!important;
