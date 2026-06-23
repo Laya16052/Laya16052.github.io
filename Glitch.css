@@ -517,7 +517,7 @@ textarea, select, button.button, a.btn.btn-default.button {background: white !im
 input, textarea, select, button.button,
 a.btn.btn-default.button {
 background: #000000 !important;
-border: none !important;
+border: 3px solid #ff007f !important;
 border-radius: 0px !important;
 color: #ff007f !important;
 text-shadow: none !important; }
