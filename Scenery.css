@@ -59,7 +59,7 @@ color: #HEX; } }
 
 @media screen and (max-width: 600px){
 body {
-background: #HEX;
+background: url('https://media.istockphoto.com/id/1211719406/photo/dawn-light-shines-through-bluebell-forest.jpg?s=612x612&w=0&k=20&c=1qTSEBA_BZG37smMz8Iwi8vkaaoJenQ5BDqPIphFAQE=') center center fixed;
 background-size: cover;
 color: #HEX; } }
 
