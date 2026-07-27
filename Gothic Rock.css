@@ -563,6 +563,16 @@ background-size: 100% !important;
 background-size: 100% !important;
 }
 
+/* GOLD BEETLE */
+img[src$="gold.png"] {
+    content:url('LINK')!important;
+    width:20px!important; }
+ 
+/* SILVER BEETLE */
+img[src$="silver.png"] {
+    content:url('https://static.lioden.com/img/layout/icon-beetle-silver.png')!important;
+    width:20px!important; }
+
 /* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
 Codes may be edited, used in commissions or for personal use
 Please do not remove credit
