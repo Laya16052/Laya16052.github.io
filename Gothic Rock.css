@@ -7,14 +7,14 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 
 /* FONT (From Google Fonts) */
 
-@import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
 
 /* BACKGROUND */
 
 body {
 	background: url('https://i.pinimg.com/736x/8d/e8/8c/8de88c1e96939a5efe0de23d92d3f3e5.jpg') center center fixed;
 	background-size: 100%;
-	font-family: "Quantico", sans-serif;
+	font-family: "Qwigley", cursive;
 	color: #ffffff;
 }
 
@@ -146,7 +146,7 @@ h1 {
 	color: #ffffff;
 	font-size: 90px;
 	text-align: center;
-        font-family: "Quantico", sans-serif;
+        font-family: "Qwigley", cursive;
 }
 
 
@@ -171,7 +171,7 @@ h3 {
 .sidebar h3 {
 	color: #ffffff !important;
         font-size: 26px !important;
-        font-family: "Quantico", sans-serif;
+        font-family: "Qwigley", cursive;
 }
 
 /* RIGHT SIDE PANELS */
@@ -192,7 +192,7 @@ h3 {
 
 /* ENERGY BAR COLOR */
 .progress-bar {
-	background: rgba(80, 11, 8, 0.7);
+	background: rgba(131, 26, 43, 0.8);
 	color: #ffffff !important;
 	border-radius: 0px !important
 }
@@ -563,16 +563,6 @@ background-size: 100% !important;
 background-size: 100% !important;
 }
 
-/* GOLD BEETLE */
-img[src$="gold.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* SILVER BEETLE */
-img[src$="silver.png"] {
-    content:url('https://static.lioden.com/img/layout/icon-beetle-silver.png')!important;
-    width:20px!important; }
-
 /* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
 Codes may be edited, used in commissions or for personal use
 Please do not remove credit
@@ -613,6 +603,112 @@ img[src$="den_beetlebook.png"] {
     width:240px!important;
  
 }
+
+/* ALL CURRENCY ICONS - also by kat and pandora 
+if you do not want to change currency icons, simply delete this section of code */
+
+/* EVENT CURRENCY */
+ 
+/* GOLD BEETLE */
+img[src$="gold.png"] {
+    content:url('https://i.postimg.cc/T36VGhnX/5fc15b5346ddfd66a762ab9428a6c5f7-removebg-preview.png')!important;
+    width:20px!important; }
+ 
+/* SILVER BEETLE */
+img[src$="silver.png"] {
+    content:url('https://i.postimg.cc/KzJq3Brp/aa236c43fed05a551f0905de030dc3f4-removebg-preview.png')!important;
+    width:20px!important; }
+
+/* JAN */
+img[src$="dermestid.png"] {
+    content:url('https://i.postimg.cc/T36VGhnX/5fc15b5346ddfd66a762ab9428a6c5f7-removebg-preview.png')!important;
+    width:20px!important; }
+ 
+/* FEB */
+img[src$="heartshell.png"] {
+    content:url('https://i.postimg.cc/T36VGhnX/5fc15b5346ddfd66a762ab9428a6c5f7-removebg-preview.png')!important;
+    width:20px!important; }
+ 
+/* MARCH */
+img[src$="beetlerhino.png"] {
+    content:url('https://i.postimg.cc/T36VGhnX/5fc15b5346ddfd66a762ab9428a6c5f7-removebg-preview.png')!important;
+    width:20px!important; }
+ 
+/* APRIL */
+img[src$="easteregg.png"] {
+    content:url('https://i.postimg.cc/T36VGhnX/5fc15b5346ddfd66a762ab9428a6c5f7-removebg-preview.png')!important;
+    width:20px!important; }
+ 
+ 
+/* MAY */
+img[src$="beetlemant.png"] {
+    content:url('https://i.postimg.cc/T36VGhnX/5fc15b5346ddfd66a762ab9428a6c5f7-removebg-preview.png')!important;
+    width:20px!important; }
+ 
+/* JUNE */
+img[src$="khepri.png"] {
+    content:url('https://i.postimg.cc/T36VGhnX/5fc15b5346ddfd66a762ab9428a6c5f7-removebg-preview.png')!important;
+    width:20px!important; }
+ 
+/* JULY - METEORITE SHARDS */
+img[src$="shard.png"] {
+    content:url('https://i.postimg.cc/T36VGhnX/5fc15b5346ddfd66a762ab9428a6c5f7-removebg-preview.png')!important;
+    width:20px!important; }
+ 
+/* JULY - AXION CORES */
+img[src$="axion.png"] {
+    content:url('https://i.postimg.cc/KzJq3Brp/aa236c43fed05a551f0905de030dc3f4-removebg-preview.png')!important;
+    width:20px!important; }
+ 
+/* AUG - CARRION BONES */
+img[src$="beetlecarrion.png"] {
+    content:url('https://i.postimg.cc/T36VGhnX/5fc15b5346ddfd66a762ab9428a6c5f7-removebg-preview.png')!important;
+    width:20px!important; }
+ 
+/* AUG - DRY BONES */
+img[src$="bone.png"] {
+    content:url('https://i.postimg.cc/KzJq3Brp/aa236c43fed05a551f0905de030dc3f4-removebg-preview.png')!important;
+    width:20px!important; }
+ 
+/* SEPT - JEWEL BEETLES */
+img[src$="beetlejewel.png"] {
+    content:url('https://i.postimg.cc/T36VGhnX/5fc15b5346ddfd66a762ab9428a6c5f7-removebg-preview.png')!important;
+    width:20px!important; }
+ 
+/* SEPT - ELDRITCH TOKENS */
+img[src$="eldritch.png"] {
+    content:url('https://i.postimg.cc/KzJq3Brp/aa236c43fed05a551f0905de030dc3f4-removebg-preview.png')!important;
+    width:20px!important; }
+ 
+/* OCT - BLOOD BEETLES */
+img[src$="beetleblood.png"] {
+    content:url('https://i.postimg.cc/T36VGhnX/5fc15b5346ddfd66a762ab9428a6c5f7-removebg-preview.png')!important;
+    width:20px!important; }
+ 
+/* OCT - NEPHILIM FEATHERS */
+img[src$="nephelinefeather.png"] {
+    content:url('https://i.postimg.cc/KzJq3Brp/aa236c43fed05a551f0905de030dc3f4-removebg-preview.png')!important;
+    width:20px!important; }
+ 
+/* OCT - DEMON SCALES */
+img[src$="demonicscale.png"] {
+    content:url('https://i.postimg.cc/KzJq3Brp/aa236c43fed05a551f0905de030dc3f4-removebg-preview.png')!important;
+    width:20px!important; }
+ 
+/* NOV */
+img[src$="scarabbeetle.png"] {
+    content:url('https://i.postimg.cc/T36VGhnX/5fc15b5346ddfd66a762ab9428a6c5f7-removebg-preview.png')!important;
+    width:20px!important; }
+ 
+/* DEC */
+img[src$="stinkbug.png"] {
+    content:url('https://i.postimg.cc/T36VGhnX/5fc15b5346ddfd66a762ab9428a6c5f7-removebg-preview.png')!important;
+    width:20px!important; }
+	
+/* TREASURE HUNT */
+img[src$="icon_doubloon.png"] {
+    content:url('https://i.postimg.cc/T36VGhnX/5fc15b5346ddfd66a762ab9428a6c5f7-removebg-preview.png')!important;
+    width:20px!important; }
 
 ( for Removing the border ) 
 
@@ -708,7 +804,7 @@ background: url("https://i.pinimg.com/736x/8d/e8/8c/8de88c1e96939a5efe0de23d92d3
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-font-family: "Quantico", sans-serif;
+font-family: "Qwigley", cursive;
 color: #ffffff;
 }
 html:not(.nolayout) body:after {
@@ -724,7 +820,7 @@ background: url("https://i.pinimg.com/736x/8d/e8/8c/8de88c1e96939a5efe0de23d92d3
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-font-family: "Quantico", sans-serif;
+font-family: "Qwigley", cursive;
 color: #ffffff;
 }
 }
@@ -735,9 +831,15 @@ background: url("https://i.pinimg.com/736x/8d/e8/8c/8de88c1e96939a5efe0de23d92d3
 background-repeat: no-repeat;
 background-size: cover;
 -webkit-background-size: cover; 
-font-family: "Quantico", sans-serif;
+font-family: "Qwigley", cursive;
 color: #ffffff;
 }
+
+/* Coffin - https://www.cursors-4u.com/cursor/hol35 */
+* {
+  cursor: url('https://cdn.cursors-4u.net/previews/coffin-d76dce1f-32.webp') 32 32, auto !important;
+}
+/* End www.Cursors-4U.com Code */
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
