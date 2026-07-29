@@ -690,6 +690,20 @@ img[src$="den_beetlebook.png"] {
         color: #ffffff !important;
     }
 
+/* PAGEDOLL */
+.container.main::before {
+background-image: url('https://i.postimg.cc/sg2QSjvd/Untitled531-20260527222252.webp');
+background-size: contain;
+background-repeat: no-repeat;
+position: fixed;
+display: block;
+height:250px;
+width:250px;
+right:-0px;
+bottom: -10px;
+z-index: 100;
+pointer-events: none;
+
 /*mobile background fixer code by tawnycollar #251887. do not remove credit.*/
 @media screen and (max-width: 768px){
 body {
