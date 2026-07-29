@@ -144,7 +144,7 @@ button.button, button.button:hover {
 
 h1 {
 	color: #ffffff;
-	font-size: 80px;
+	font-size: 90px;
 	text-align: center;
         font-family: "Story Script", sans-serif;
 }
@@ -603,7 +603,7 @@ img[src$="den_beetlebook.png"] {
     width:240px!important;
  
 }
-	
+
 ( for Removing the border ) 
 
 /* tables */
@@ -729,6 +729,7 @@ font-family: "Story Script", sans-serif;
 color: #ffffff;
 }
 
+
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
 @media only screen and (max-width: 767px) {
@@ -746,3 +747,4 @@ color: #ffffff;
 			width: 790px;
 		}
 	}
+
