@@ -40,7 +40,7 @@ body {
 	background: rgba(132, 144, 60, 0.8);
 	border: 2px solid #000000;
 	border-top: none;
-	color: #2d390b;
+	color: #c6b985;
 	border-radius: 0px;
 }
 
@@ -49,14 +49,14 @@ body {
 .navbar {
 	background: rgba(68, 74, 38, 0.8);
 	border-bottom: none;
-	color: #84903c;
+	color: #c6b985;
 	border-radius: 0px
 }
 
 /* NAVBAR BUTTON TEXT COLOR */
 
 .navbar li a {
-	color: #2d390b !important;
+	color: #c6b985 !important;
 }
 
 /* NAVBAR BUTTON HOVER */
@@ -79,14 +79,14 @@ body {
 /* BREADCRUMB TEXT */
 
 .breadcrumb .active {
-	color: #2d390b;
+	color: #c6b985;
 }
 
 /* CSS CREDIT */
 
 .breadcrumb::after {
         content: "CSS by Laya16052 (#564564/#577399)";
-        color: #2d390b;
+        color: #c6b985;
         position: absolute;
         right: 13%; /* (This may need adjusting) */
         z-index: 100
@@ -136,7 +136,7 @@ button.button, button.button:hover {
 .alert-danger {
 	background: rgba(148, 142, 79, 0.8) !important;
 	border: 2px solid #000000;
-	color: #2d390b;
+	color: #c6b985;
 	border-radius: 0px !important
 }
 
@@ -153,7 +153,7 @@ h1 {
 /* MEDIUM HEADER */
 
 h2 {
-	color: #2d390b;
+	color: #c6b985;
 	font-size: 24px;
 	text-align: center
 }
@@ -162,14 +162,14 @@ h2 {
 /* SMALL HEADER */
 
 h3 {
-	color: #2d390b !important;
+	color: #c6b985 !important;
 	font-size: 14px !important
 }
 
 /* RIGHT SIDE PANEL HEADER */
 
 .sidebar h3 {
-	color: #2d390b !important;
+	color: #c6b985 !important;
         font-size: 26px !important;
         font-family: "Sancreek", serif;
 }
@@ -186,33 +186,33 @@ h3 {
 /* ENERGY BAR BACKGROUND */
 .progress {
 	background: rgba(0, 0, 0, 0.2);
-	color: #2d390b !important;
+	color: #c6b985 !important;
 	border-radius: 0px !important
 }
 
 /* ENERGY BAR COLOR */
 .progress-bar {
 	background: rgba(132, 144, 60, 0.8);
-	color: #2d390b !important;
+	color: #c6b985 !important;
 	border-radius: 0px !important
 }
 
 /* ENERGY BAR TEXT */
 .progress div {
-	color: #2d390b !important;
+	color: #c6b985 !important;
 }
 
 /* CHAT */
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
 	background: rgba(68, 74, 38, 0.8) !important;
-        color: #84903c !important;
+        color: #c6b985 !important;
 	border: 2px solid #000000 !important
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
 	background: rgba(132, 144, 60, 0.8) !important;
-        color: #2d390b !important;
+        color: #c6b985 !important;
 	border: 2px solid #000000 !important
 }
 
@@ -223,7 +223,7 @@ h3 {
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
-	color: #2d390b !important;
+	color: #c6b985 !important;
 }
 
 div#chatMessageContainer {
@@ -232,7 +232,7 @@ div#chatMessageContainer {
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 	background: rgba(107, 120, 93, 0.8) !important;
-        color: #2d390b !important;
+        color: #c6b985 !important;
 	border: 2px solid #000000 !important
 }
 
@@ -255,7 +255,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 .bottom,
 th {
 	background: rgba(68, 74, 38, 0.8) !important;
-	color: #84903c !important;
+	color: #c6b985 !important;
 	border-radius: 0px
 }
 
@@ -267,7 +267,7 @@ td.bottom a {
 
 .inner-table .left {
 	background: rgba(132, 144, 60, 0.8) !important;
-        color: #2d390b;
+        color: #c6b985;
 	border-radius: 0px
 }
 
@@ -301,7 +301,7 @@ td.right {
 
 .feature {
 	background: rgba(148, 142, 79, 0.7) !important;
-	color: #2d390b !important;
+	color: #c6b985 !important;
 	border: 2px solid #000000 !important;
 	border-radius: 0px !important
 }
@@ -330,7 +330,7 @@ textarea {
 	background: rgba(132, 144, 60, 0.8) !important;
 	border: 2px solid #000000 !important;
 	border-radius: 0px !important;
-	color: #2d390b !important;
+	color: #c6b985 !important;
 	box-shadow: none !important;
 	text-shadow: none !important
 }
@@ -339,7 +339,7 @@ textarea {
 
 .item-header {
 	background: rgba(107, 120, 93, 0.8) !important;
-	color: #2d390b  !important;
+	color: #c6b985 !important;
 	border-radius: 0px !important;
 }
 
@@ -395,7 +395,7 @@ a:hover {
 .smallhoverbox {
 	float: left;
 	background: rgba(148, 142, 79, 0.7);
-	color: #2d390b;
+	color: #c6b985;
 	padding: 10px;
 	border: 2px solid #000000;
 	border-radius: 0px;
@@ -414,7 +414,7 @@ a:hover {
 .mediumhoverbox {
 	float: left;
 	background: rgba(148, 142, 79, 0.7);
-	color: #2d390b;
+	color: #c6b985;
 	padding: 10px;
 	border: 2px solid #000000;
 	border-radius: 0px;
@@ -433,7 +433,7 @@ a:hover {
 .largehoverbox {
 	float: left;
 	background: rgba(148, 142, 79, 0.7);
-	color: #2d390b;
+	color: #c6b985;
 	padding: 10px;
 	border: 2px solid #000000;
 	border-radius: 0px;
@@ -594,7 +594,7 @@ img[src$="silver.png"] {
         position: left;
         bottom: 0px;
         right: 0px;
-        color: #2d390b !important;
+        color: #c6b985 !important;
         font-size: 16px;
         letter-spacing: 2px;
         text-transform: uppercase;
@@ -603,7 +603,7 @@ img[src$="silver.png"] {
         padding: 5px;
     }
     .pun-credit a {
-        color: #2d390b !important;
+        color: #c6b985 !important;
     }
     .pun-credit a:hover {
         opacity: 1 !important;
@@ -622,7 +622,7 @@ img[src$="silver.png"] {
     }
     .pun-content {
         background: rgba(148, 142, 79, 0.7) !important;
-        color: #2d390b;
+        color: #c6b985;
         text-align: justify;
         height: 400px;
         overflow: auto;
@@ -632,7 +632,7 @@ img[src$="silver.png"] {
         font-size: 13px;
     }
     .pun-content a {
-        color: #2d390b !important;
+        color: #c6b985 !important;
         font-weight: normal !important;
         opacity: 0.5;
     }
@@ -641,7 +641,7 @@ img[src$="silver.png"] {
     }
     .pun-links {
         background: rgba(132, 144, 60, 0.8) !important;
-        color: #2d390b;
+        color: #c6b985;
         text-transform: uppercase;
         font-size: 14px;
         font-weight: normal;
@@ -650,17 +650,17 @@ img[src$="silver.png"] {
         border-radius: 5px;
     }
     .pun-links a {
-        color: #2d390b !important;
+        color: #c6b985 !important;
     }
     .pun-graphics {
         background: rgba(132, 144, 60, 0.8) !important;
-        color: #2d390b;
+        color: #c6b985;
 font-size: 16px;
         text-align: center;
         border-radius: 5px;
     }
     .pun-graphics a {
-        color: #2d390b !important;
+        color: #c6b985 !important;
     }
 
 /* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
@@ -729,7 +729,7 @@ background: url("https://i.pinimg.com/736x/7e/fe/d8/7efed8d3f69517ddcf1496fffcf9
 -o-background-size: cover;
 background-size: cover;
 font-family: "Sancreek", serif;
-color: #2d390b;
+color: #c6b985;
 }
 html:not(.nolayout) body:after {
 content:"";
@@ -745,7 +745,7 @@ background: url("https://i.pinimg.com/736x/7e/fe/d8/7efed8d3f69517ddcf1496fffcf9
 -o-background-size: cover;
 background-size: cover;
 font-family: "Sancreek", serif;
-color: #2d390b;
+color: #c6b985;
 }
 }
 /* desktop background */
@@ -756,5 +756,5 @@ background-repeat: no-repeat;
 background-size: cover;
 -webkit-background-size: cover; 
 font-family: "Sancreek", serif;
-color: #2d390b;
+color: #c6b985;
 }
