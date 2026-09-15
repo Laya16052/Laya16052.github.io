@@ -37,7 +37,7 @@ body {
 /* TOPBAR ("Welcome back, ___") */
 
 .topbar {
-	background: rgba(253, 99, 108, 0.8);
+	background: rgba(102, 13, 34, 0.8);
 	border: 2px solid #000000;
 	border-top: none;
 	color: #f8fafc;
@@ -71,7 +71,7 @@ body {
 /* BREADCRUMB (Home / Den) */
 
 .breadcrumb {
-	background: rgba(253, 99, 108, 0.8) !important;
+	background: rgba(102, 13, 34, 0.8) !important;
         border: 2px solid #000000;
 	border-radius: 0px
 }
@@ -192,7 +192,7 @@ h3 {
 
 /* ENERGY BAR COLOR */
 .progress-bar {
-	background: rgba(253, 99, 108, 0.7);
+	background: rgba(102, 13, 34, 0.7);
 	color: #f8fafc !important;
 	border-radius: 0px !important
 }
@@ -211,7 +211,7 @@ h3 {
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
-	background: rgba(253, 99, 108, 0.8) !important;
+	background: rgba(102, 13, 34, 0.8) !important;
         color: #f8fafc !important;
 	border: 2px solid #000000 !important
 }
@@ -254,7 +254,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 .top,
 .bottom,
 th {
-	background: rgba(253, 99, 108, 0.6) !important;
+	background: rgba(102, 13, 34, 0.6) !important;
 	color: #f8fafc !important;
 	border-radius: 0px
 }
@@ -292,7 +292,7 @@ td.right {
 
 .cave-grid,
 .mound-grid {
-	background: rgba(247, 127, 125, 0.8);
+	background: rgba(102, 13, 34, 0.8);
 	border: 2px solid #000000 !important;
 	border-radius: 0px !important
 }
@@ -327,7 +327,7 @@ div.left {
 input,
 select,
 textarea {
-	background: rgba(247, 127, 125, 0.7) !important;
+	background: rgba(102, 13, 34, 0.7) !important;
 	border: 2px solid #000000 !important;
 	border-radius: 0px !important;
 	color: #f8fafc !important;
@@ -394,7 +394,7 @@ a:hover {
 
 .smallhoverbox {
 	float: left;
-	background: rgba(247, 127, 125, 0.8);
+	background: rgba(102, 13, 34, 0.8);
 	color: #f8fafc;
 	padding: 10px;
 	border: 2px solid #000000;
@@ -413,7 +413,7 @@ a:hover {
 
 .mediumhoverbox {
 	float: left;
-	background: rgba(247, 127, 125, 0.8);
+	background: rgba(102, 13, 34, 0.8);
 	color: #f8fafc;
 	padding: 10px;
 	border: 2px solid #000000;
@@ -432,7 +432,7 @@ a:hover {
 
 .largehoverbox {
 	float: left;
-	background: rgba(247, 127, 125, 0.8);
+	background: rgba(102, 13, 34, 0.8);
 	color: #f8fafc;
 	padding: 10px;
 	border: 2px solid #000000;
@@ -649,7 +649,7 @@ img[src$="den_beetlebook.png"] {
         width: 320px;
     }
     .pun-content {
-        background: rgba(247, 127, 125, 0.8) !important;
+        background: rgba(102, 13, 34, 0.8) !important;
         color: #f8fafc;
         text-align: justify;
         height: 400px;
