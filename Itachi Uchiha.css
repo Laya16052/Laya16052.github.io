@@ -652,26 +652,6 @@ transition: 1s }
 overflow-y: auto;
 height: 250px; }
 
-/* MOBILE ONLY BOXES 
-- these will only display on mobile. use if you want a more simplified box for mobile.
-mobile box html should look like this
-<div class="mobilebox">text</div> 
-if you don't want mobile only boxes, delete everything from below this to above cave covers */
-
-.mobilebox {
-float: center;
-background: rgba(67, 6, 18, 0.8) !important;
-border: 1px solid #000000 !important;
-border-radius: 0px !important;
-color: #ffffff !important;
-margin: 10px;
-padding: 10px;
-float: center;
-height: 155px;
-width: 80%;
-overflow: auto;
-transition: 1s }
-
 @media only screen and (max-width: 991px) and (min-width: 768px) {
 
 		.Box1, .Box2, .Box3, .boxcontainer {
