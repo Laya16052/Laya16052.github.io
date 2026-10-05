@@ -450,7 +450,7 @@ a:hover {
         transition: 3s
 }
 
-.smallhoverbox2:hover {
+.mediumhoverbox:hover {
 	height: 150px; /* expand on hover */
 }
 
