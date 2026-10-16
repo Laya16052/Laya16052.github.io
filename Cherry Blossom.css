@@ -55,13 +55,13 @@ BUT I recommend repeating patterns rather than full images. */
 body {
 background: url('https://i.pinimg.com/originals/37/48/7a/37487a3b1fecc64956498df6b2011497.gif') center center fixed;
 background-size: 100%;
-color: #ff007f; } }
+color: #ffffff; } }
 
 @media screen and (max-width: 600px){
 body {
 background: url('https://i.pinimg.com/originals/37/48/7a/37487a3b1fecc64956498df6b2011497.gif') center center fixed;
 background-size: cover;
-color: #ff007f; } }
+color: #ffffff; } }
 
 /* SCROLL BOXES */
  
@@ -79,17 +79,17 @@ H2 is not used anywhere in the default look unless you want to use it.
 H3 is used in the side bar (above the energy panel, achievement panel, etc. */
  
 h1 {
-color: #ff007f !important;
+color: #ffffff !important;
 font-size: 64px;
 text-align: center !important;
 font-family: "Cherry Bomb One", system-ui;}
 
 h2 {
-color: #ff007f !important;
+color: #ffffff !important;
 font-size: 24px;}
 
 h3 {
-color: #ff007f !important;
+color: #ffffff !important;
 font-size: 18px;}
  
 /* LINKS
@@ -98,11 +98,11 @@ Plan accordingly. */
  
 a:link,
 a:visited {
-color: #ff007f !important;
+color: #ffffff !important;
 background: none !important; }
    
 a:hover {
-color: #ff007f !important; }
+color: #ffffff !important; }
  
 /* MAIN PANEL - The panel in front of your background image. Usually a solid color on Lioden.
 You can make it a solid color by either using a HEX code, or by setting the final number in RGBA to 1.0 */
@@ -119,13 +119,13 @@ background: none; }
  
 .topbar {
 background: rgba(254, 203, 199, 0.5) !important;
-color: #ff007f !important;
+color: #ffffff !important;
 border: none !important;
 border-radius: 0px !important;  }
  
 .navbar {
 background: rgba(254, 203, 199, 0.5) !important;
-color: #ff007f !important;
+color: #ffffff !important;
 border: none !important;
 border-radius: 0px !important; }
 
@@ -154,11 +154,11 @@ border-top: none !important;
 
 .breadcrumb {
 background: #020346 !important;
-color: #010104 !important;
+color: #ffffff !important;
 border: none !important;
 border-radius: 0px !important;} 
 .breadcrumb .active {
-color: #ff007f; }
+color: #ffffff; }
  
 /* ALERTS 
 .alert is all alerts, only set this one if you want all alerts to be the same color
@@ -170,19 +170,19 @@ and danger the same color for best results
  
 .alert {
 background: #09058e !important;
-color: #ff007f !important;
+color: #ffffff !important;
 border: none !important;
 border-radius: 0px !important;
 text-align: center !important;  }
 .alert-warning {
 background: #09058e !important;
-color: #ff007f !important;}
+color: #ffffff !important;}
 .alert-danger {
 background: #09058e !important;
-color: #ff007f !important;}
+color: #ffffff !important;}
 .alert-success {
 background: #09058e !important;
-color: #ff007f !important;}
+color: #ffffff !important;}
  
 
 /*COMMENT BOX 
@@ -200,21 +200,21 @@ div#commentBox {
 background: rgba(247, 208, 211, 0.6) !important;
 border: 1px solid #ff007f !important;
 border-radius: 0px !important;
-color: #ff007f !important;}
+color: #ffffff !important;}
 	
 .comment {     
 background: #HEX !important;
 border: 1px solid #ff007f !important;
 border-bottom: none !important;
 border-radius: 0px !important;
-color: #ff007f !important;
+color: #ffffff !important;
 text-align: center !important;}
 .text-muted { 
-color: #ff007f !important; }
+color: #ffffff !important; }
 
 input.bad {
 background: #HEX !important;
-color: #ff007f !important;}
+color: #ffffff !important;}
 input.bad a {
 color: #000000 !important; }
 
@@ -240,7 +240,7 @@ box-shadow: none !important;  } */
  
 .panel {
 background: #040026 !important;
-color: #ff007f !important;
+color: #ffffff !important;
 border: none !important;
 border-radius: 0px !important;
 box-shadow: none !important;  }
@@ -256,22 +256,22 @@ border-radius: 0px !important; }
 
 /* ENERGY */ .progress-bar-warning { 
 background: #06005a !important;
-color: #ff007f !important;}
+color: #ffffff !important;}
 /* HUNGER */ .progress-bar-danger { 
 background: #6f034b !important;
-color: #ff007f !important;}
+color: #ffffff !important;}
 /* EXP + ACHIEVEMENTS */ .progress-bar-success { 
 background: #550c80 !important;
-color: #ff007f !important;}
+color: #ffffff !important;}
 
 /* This is the text that reads Energy: X% */
 .progress div {
-color: #ff007f !important; }
+color: #ffffff !important; }
 
 /* This is the background of the progress bars. */
 .progress {
 background:  #000000;
-color: #ff007f !important;
+color: #ffffff !important;
 border-radius: 0px !important;  }
 
 /* Icon Replacement - Warning
@@ -296,7 +296,7 @@ color: #ff007f !important; }
 .s-chat-sidebar #fraChatChannelMenu,
 button.channelSwitcher, button.channelSwitcher.active {
     background: #05004f !important;
-color: #ff007f !important;	
+color: #ffffff !important;	
 border: none !important;
 border-radius: 0px !important;
 box-shadow: none !important; }
@@ -315,7 +315,7 @@ border: 1px solid #ff007f !important; }
 
 .s-chat-message__pinned {
 background-color: #a211c6 !important;
-color: #ff007f !important;
+color: #ffffff !important;
 border: none !important; }
 
 /* Odd will show at the TOP of chat, even will show every other message under it. If you want both colors the same, do
@@ -323,7 +323,7 @@ not touch the even/odd specifications */
 
 .s-chat-message {
 background: #762389 !important;
-color: #ff007f !important;
+color: #ffffff !important;
 border-bottom: #ff007f !important; }
 
 .s-chat-message:nth-child(even) {
@@ -340,12 +340,12 @@ may 8th: stop touchy */
 #chatMessageList[data-pings="enabled"] .s-chat-message_mention {
 background-color: #020346 !important;
 border-left: 6px solid #ff007f !important;
-color: #ff007f !important; }
+color: #ffffff !important; }
 
 /* This is the character counter, that displays X/150 */
 
 div#lblCharacterCounter {
-color: #ff007f !important; }
+color: #ffffff !important; }
 
 /* I can't remember what this does but I know things get weird if you touch it
 that means do NOT touch it.
@@ -360,13 +360,13 @@ view breeding requests, view user log, and view attack history buttons */
  
 .feature {
 background: #06012e !important;
-color: #ff007f !important;
+color: #ffffff !important;
 border: 3px double #b00d6d !important;
 border-radius: 0px !important;  }
 
 div.left {
 background: #06012e!important;
-color: #ff007f !important;
+color: #ffffff !important;
 border: none !important;
 border-radius: 0px !important; }
 
@@ -390,7 +390,7 @@ edit details, etc. */
 
 .top, .bottom, th {
 background: #05004f !important;
-color: #ff007f !important;
+color: #ffffff !important;
 border: none !important;
 border-radius: 0px !important; }
 
@@ -521,7 +521,7 @@ a.btn.btn-default.button {
 background: #000000 !important;
 border: none !important;
 border-radius: 0px !important;
-color: #ff007f !important;
+color: #ffffff !important;
 text-shadow: none !important; }
  
 /* CAVE NAMES - changes the color of of where cave names are displayed */
@@ -529,7 +529,7 @@ text-shadow: none !important; }
 .cave-grid,
 .mound-grid {
 background: rgba(247, 208, 211, 0.8) !important;
-color: #ff007f !important;
+color: #ffffff !important;
 border: none !important;
 border-radius: 0px !important; }
 
@@ -624,7 +624,7 @@ table#pride.table .xsmall just puts the lion subtext back to its regular size, s
 
 .featured-lion {
 background: #HEX !important;
-color: #ff007f !important;
+color: #ffffff !important;
 border: none !important;
 border-radius: 0px !important;
 padding: 0;
@@ -637,7 +637,7 @@ img[src*="cave/default"] {
 content: url('IMG LINK') !important;}
 
 table#pride.table, table#pride.table a, table#pride.table a:visited {
-color: #ff007f !important; }
+color: #ffffff !important; }
 
 table#pride.table .xsmall
 {font-size: 12px !important;}
@@ -647,7 +647,7 @@ days till heat for lionesses */
 
 .badge {
 background: #HEX !important;
-color: #ff007f !important; }
+color: #ffffff !important; }
 	
 / * NO LINK UNDERLINE - This removes Link underlines at the links at the bottom of the page,
 and removes link underlines from edit your details */
@@ -741,7 +741,7 @@ float: center;
 background: #000000 !important;
 border: 1px solid #ff007f !important;
 border-radius: 0px !important;
-color: #ff007f !important;
+color: #ffffff !important;
 margin: 10px;
 padding: 10px;
 float: center;
@@ -856,7 +856,7 @@ DO IT BELOW THIS POINT BUT BEFORE THE CREDIT */
  
 .breadcrumb::after {
 content: "CSS by Laya16052 (#564564/#577399)";
-color: #ff007f;
+color: #ffffff;
 position: absolute;
 right: 13%;
 z-index: 100; }
