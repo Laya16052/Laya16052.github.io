@@ -845,7 +845,13 @@ or fill out both i can't stop you but it'll be a clusterfuck */
 /* IF YOU WANT A CUSTOM CURSOR GO TO https://www.cursors-4u.com/
 AND COPY AND PASTE THE PROVIDED CODE ONCE YOU CLICK THE GET HTML/CSS CODE BUTTON
 DO IT BELOW THIS POINT BUT BEFORE THE CREDIT */
-	
+
+	/* WIND BREAKER Sakura Haruka Windchime Pointer - https://www.cursors-4u.com/cursor/wind-breaker-sakura-haruka-windchime-pointer */
+* {
+  cursor: url('https://cdn.cursors-4u.net/previews/wind-breaker-sakura-haruka-windchime-custom-cursor-2d49dd35-128.webp') 34 6, auto !important;
+}
+/* End www.Cursors-4U.com Code */
+
 /* CREDIT - no touchy this part, the code will work just fine */
  
 .breadcrumb::after {
