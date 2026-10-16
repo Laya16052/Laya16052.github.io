@@ -153,7 +153,7 @@ border-top: none !important;
 /* Bookmark Bar - aka breadcrumb, this is where your link path is shown */
 
 .breadcrumb {
-background: #020346 !important;
+background: rgba(247, 201, 201, 0.8) !important;
 color: #ffffff !important;
 border: none !important;
 border-radius: 0px !important;} 
@@ -169,19 +169,19 @@ and danger the same color for best results
 (quick notice maybe? more research)*/
  
 .alert {
-background: #09058e !important;
+background: rgba(247, 201, 201, 0.8) !important;
 color: #ffffff !important;
 border: none !important;
 border-radius: 0px !important;
 text-align: center !important;  }
 .alert-warning {
-background: #09058e !important;
+background: rgba(247, 201, 201, 0.8) !important;
 color: #ffffff !important;}
 .alert-danger {
-background: #09058e !important;
+background: rgba(247, 201, 201, 0.8) !important;
 color: #ffffff !important;}
 .alert-success {
-background: #09058e !important;
+background: rgba(247, 201, 201, 0.8) !important;
 color: #ffffff !important;}
  
 
@@ -239,7 +239,7 @@ border-radius: 0px !important;
 box-shadow: none !important;  } */
  
 .panel {
-background: #040026 !important;
+background: #f2a7ac !important;
 color: #ffffff !important;
 border: none !important;
 border-radius: 0px !important;
@@ -251,11 +251,11 @@ to the colors you put here.
 Bars will also inherit the border-radius value from this one, so it's
 not needed to specify border-radius for all bars. */
 .progress-bar {
-background: #06005a !important; 
+background: #ed97a4 !important; 
 border-radius: 0px !important; }
 
 /* ENERGY */ .progress-bar-warning { 
-background: #06005a !important;
+background: #ed97a4 !important;
 color: #ffffff !important;}
 /* HUNGER */ .progress-bar-danger { 
 background: #6f034b !important;
