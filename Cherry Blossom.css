@@ -359,13 +359,13 @@ div.left controls BOTH the dynasty, achievements, showcase, beetle book AND
 view breeding requests, view user log, and view attack history buttons */
  
 .feature {
-background: #06012e !important;
+background: #e6a7af !important;
 color: #ffffff !important;
 border: 3px double #b00d6d !important;
 border-radius: 0px !important;  }
 
 div.left {
-background: #06012e!important;
+background: #e6a7af !important;
 color: #ffffff !important;
 border: none !important;
 border-radius: 0px !important; }
@@ -410,7 +410,7 @@ background: rgba(1, 1, 1, 0.7);
 border-radius: 0px !important; }
 
 .inner-table .left {
-background: #05004f !important;
+background: #e6a7af !important;
 border-radius: 0px !important;  }
 
 .inner-table .right {
@@ -734,7 +734,7 @@ if you don't want mobile only boxes, delete everything from below this to above 
 
 .mobilebox {
 float: center;
-background: #000000 !important;
+background: rgba(230, 167, 175, 0.8) !important;
 border: 1px solid #ff007f !important;
 border-radius: 0px !important;
 color: #ffffff !important;
@@ -900,7 +900,7 @@ z-index: 100; }
     }
     .pun-table {
         width: 640px;
-        background: url('https://i.pinimg.com/736x/89/39/b7/8939b7a9558660c427c7e14d979d8cd9.jpg');
+        background: url('https://i.pinimg.com/originals/81/ab/91/81ab914b0a2d7c2e6ae588b1d8abdae6.gif');
     .pun-spacer {
         background: none;
         width: 320px;
