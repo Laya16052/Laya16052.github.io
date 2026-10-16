@@ -453,7 +453,7 @@ the names are pretty self explanatory
 you can also edit these if you want to add effects to YOUR player image and don't want it to be on these images */
 
 img[src$="icon_den_message.png"] {
-content: url('https://i.imgur.com/RbAkz5s.png') !important;
+content: url('https://i.postimg.cc/N0M5wmc4/1ede2a90672508daed975440c26f74e0-removebg-preview.png') !important;
 width: 30px !important; }
 
 img[src$="icon_den_gift.png"] {
@@ -461,15 +461,15 @@ content: url('https://i.imgur.com/yCqhqMs.png') !important;
 width: 30px !important; }
 
 img[src$="icon_den_trade.png"] {
-content: url('imagelink') !important; 
+content: url('https://i.postimg.cc/4ds2dfWw/2c7e511b2de1c92ec1fa918369e9ba13-removebg-preview.png') !important; 
 width: 24px !important; }
 
 img[src$="icon_den_wishlist.png"] {
-content: url('imagelink') !important;
+content: url('https://i.postimg.cc/vTpW4XQG/e6a1c733caa4d6c6915e09491623d409-removebg-preview.png') !important;
 width: 24px !important; }
 
 img[src$="icon_den_viewtrade.png"] {
-content: url('imagelink') !important;
+content: url('https://i.postimg.cc/fW3qRrKg/680ac848d6917d366cf200322a303035-removebg-preview.png') !important;
 width: 24px !important; }
 
 img[src$="icon_den_gift.png"] {
@@ -481,7 +481,7 @@ content: url('imagelink') !important;
 width: 24px !important; }
 
 img[src$="icon_den_friend.png"] {
-content: url('imagelink') !important;
+content: url('https://i.postimg.cc/VLkygRBq/2da94c492e6f7c63e48babf66639460f-removebg-preview.png') !important;
 width: 24px !important; }
 
 img[src$="donator.png"] {
@@ -834,7 +834,7 @@ or fill out both i can't stop you but it'll be a clusterfuck */
 /* MEMBER OFFLINE */
 .member-offline {
     background: none;
-    content:url('none')!important;
+    content:url('https://i.postimg.cc/N0M5wmc4/1ede2a90672508daed975440c26f74e0-removebg-preview.png')!important;
 	border-radius: 0px;
     width:40px!important;
     height:40px;
