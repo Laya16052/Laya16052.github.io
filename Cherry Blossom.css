@@ -278,7 +278,7 @@ border-radius: 0px !important;  }
 used only for starving kings and last day of events */
 
 img[src$="icon_warning.png"] {
-content: url('imagelink') !important;
+content: url('https://i.postimg.cc/2yJPVpbV/f9032b283c13c866d7f87a5dfd5b8579-removebg-preview.png') !important;
 width: 24px !important; }
  
 /* CHAT */
@@ -453,11 +453,11 @@ the names are pretty self explanatory
 you can also edit these if you want to add effects to YOUR player image and don't want it to be on these images */
 
 img[src$="icon_den_message.png"] {
-content: url('https://i.postimg.cc/N0M5wmc4/1ede2a90672508daed975440c26f74e0-removebg-preview.png') !important;
+content: url('https://i.postimg.cc/0NQdHzHQ/2b8929a12da6e04d4cb60920307cbd19-removebg-preview.png') !important;
 width: 30px !important; }
 
 img[src$="icon_den_gift.png"] {
-content: url('https://i.imgur.com/yCqhqMs.png') !important;
+content: url('https://i.postimg.cc/VsRv5KkC/09814b684c73b1ead4491e8abb8c48ef-removebg-preview.png') !important;
 width: 30px !important; }
 
 img[src$="icon_den_trade.png"] {
@@ -472,12 +472,8 @@ img[src$="icon_den_viewtrade.png"] {
 content: url('https://i.postimg.cc/fW3qRrKg/680ac848d6917d366cf200322a303035-removebg-preview.png') !important;
 width: 24px !important; }
 
-img[src$="icon_den_gift.png"] {
-content: url('imagelink') !important;
-width: 24px !important; }
-
 img[src$="icon_den_block.png"] {
-content: url('imagelink') !important;
+content: url('https://i.postimg.cc/d0LrjzLL/f0cf1433bc34cf69a7615f5b387aef2e-removebg-preview.png') !important;
 width: 24px !important; }
 
 img[src$="icon_den_friend.png"] {
@@ -485,7 +481,7 @@ content: url('https://i.postimg.cc/VLkygRBq/2da94c492e6f7c63e48babf66639460f-rem
 width: 24px !important; }
 
 img[src$="donator.png"] {
-content: url('imagelink') !important;
+content: url('https://i.postimg.cc/j2dszrSZ/68c0af5f95b4c9a75657d9dfde2edbf6-removebg-preview.png') !important;
 width: 24px !important; }
 
 /* LION AND USER AVATAR OPACITY */
