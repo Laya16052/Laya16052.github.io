@@ -7,14 +7,14 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 
 /* FONT (From Google Fonts) */
 
-@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
 
 /* BACKGROUND */
 
 body {
 	background: url('https://i.pinimg.com/originals/37/48/7a/37487a3b1fecc64956498df6b2011497.gif') center center fixed;
 	background-size: 100%;
-	font-family: "Cookie", cursive;
+	font-family: "Cherry Bomb One", system-ui;
 	color: #ffffff;
 }
 
@@ -147,7 +147,7 @@ h1 {
 	color: #ffffff;
 	font-size: 90px;
 	text-align: center;
-        font-family: "Cookie", cursive;
+        font-family: "Cherry Bomb One", system-ui;
 }
 
 
@@ -172,7 +172,7 @@ h3 {
 .sidebar h3 {
 	color: #ffffff !important;
         font-size: 26px !important;
-        font-family: "Cookie", cursive;
+        font-family: "Cherry Bomb One", system-ui;
 }
 
 /* RIGHT SIDE PANELS */
@@ -699,7 +699,7 @@ background: url("https://i.pinimg.com/originals/37/48/7a/37487a3b1fecc64956498df
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-font-family: "Cookie", cursive;
+font-family: "Cherry Bomb One", system-ui;
 color: #ffffff;
 }
 html:not(.nolayout) body:after {
@@ -715,7 +715,7 @@ background: url("https://i.pinimg.com/originals/37/48/7a/37487a3b1fecc64956498df
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-font-family: "Cookie", cursive;
+font-family: "Cherry Bomb One", system-ui;
 color: #ffffff;
 }
 }
@@ -726,7 +726,7 @@ background: url("https://i.pinimg.com/originals/37/48/7a/37487a3b1fecc64956498df
 background-repeat: no-repeat;
 background-size: cover;
 -webkit-background-size: cover; 
-font-family: "Cookie", cursive;
+font-family: "Cherry Bomb One", system-ui;
 color: #ffffff;
 }
 
