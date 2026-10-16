@@ -327,7 +327,7 @@ color: #ffffff !important;
 border-bottom: #ff007f !important; }
 
 .s-chat-message:nth-child(even) {
-background: #05004f !important;
+background: rgba(183, 90, 109, 0.5) !important;
 border: none !important; }
 .s-chat-message:nth-child(odd) {
 background: #000000 !important;
@@ -378,7 +378,7 @@ Table - the background behind your table. You can make this a solid color by rep
 rgba(0, 0, 0, 0.0) with a HEX code, or by replacing the 0.0 with a 1.0 */
  
 .table {
-background: rgba(0, 0, 0, 0.4);
+background: rgba(183, 90, 109, 0.7);
 border: none !important;
 border-collapse: separate;
 border-radius: 0px; }
