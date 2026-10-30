@@ -12,7 +12,7 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 /* BACKGROUND */
 
 body {
-	background: url('https://images.hdqwalls.com/download/nebula-space-scifi-4k-l7-1920x1080.jpg') center center fixed;
+	background: url('https://wallpapercave.com/wp/wp5264645.jpg') center center fixed;
 	background-size: 100%;
 	font-family: "Bitcount Single", system-ui;
 	color: #a0d2df;
@@ -693,7 +693,7 @@ img[src$="den_beetlebook.png"] {
 /*mobile background fixer code by tawnycollar #251887. do not remove credit.*/
 @media screen and (max-width: 768px){
 body {
-background: url("https://images.hdqwalls.com/download/nebula-space-scifi-4k-l7-1920x1080.jpg") no-repeat center center fixed;
+background: url("https://wallpapercave.com/wp/wp5264645.jpg") no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -709,7 +709,7 @@ height:160vh;
 left:0;
 right:0;
 z-index:-1; 
-background: url("https://images.hdqwalls.com/download/nebula-space-scifi-4k-l7-1920x1080.jpg") center center;
+background: url("https://wallpapercave.com/wp/wp5264645.jpg") center center;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -721,7 +721,7 @@ color: #a0d2df;
 /* desktop background */
 @media screen and (min-width: 768px){
 body {
-background: url("https://images.hdqwalls.com/download/nebula-space-scifi-4k-l7-1920x1080.jpg") center center fixed;
+background: url("https://wallpapercave.com/wp/wp5264645.jpg") center center fixed;
 background-repeat: no-repeat;
 background-size: cover;
 -webkit-background-size: cover; 
