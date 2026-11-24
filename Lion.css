@@ -472,22 +472,22 @@ height: 120px; }
 
 div.cave-grid>img[src$="nestingbanner.png"] {
 	content: url('https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL3NodXR0ZXJzdG9jay0yMjM2MjM4ODUzLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODI4fX19')!important; }
-a[href$="unsorted.php?id=564564"]>div.cave-grid>img{
+a[href$="unsorted.php?id=409540"]>div.cave-grid>img{
 content: url('https://media.istockphoto.com/id/1479343110/photo/a-lion-pride-walking-through-the-dry-savanna-towards-the-camera-beautiful-male-lions-in-the.jpg?s=612x612&w=0&k=20&c=ZZUhmuXOh1IPuO_q-pNL8klZGpx51SG0GeSyzmraAkg=')!important;
 width: 260px;
 height: 120px;}
-a[href*="lionoverview.php?id=564564"]>div.cave-grid>img {
+a[href*="lionoverview.php?id=409540"]>div.cave-grid>img {
 content: url('https://d1jyxxz9imt9yb.cloudfront.net/article/5877/meta_image/regular/lion-tree-Uganda-.jpg')!important;
 width: 260px;
 height: 120px; }
 
-a[href$="unsorted-beetles.php?id=564564"] img {
+a[href$="unsorted-beetles.php?id=409540"] img {
 content:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRlv_9xgrny72DIUmjKHO_LwC9NZ-IdKLD84WyuZneGRD7SJzHz0iNrI4&s=10') !important;
 background-size: cover;
 width: 100%;
 height: auto; } 
 
-a[href$="mound.php?id=246211"] img {
+a[href$="mound.php?id=172344"] img {
 content:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRlv_9xgrny72DIUmjKHO_LwC9NZ-IdKLD84WyuZneGRD7SJzHz0iNrI4&s=10') !important;
 background-size: cover;
 width: 100%;
