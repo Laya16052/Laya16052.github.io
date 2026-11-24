@@ -55,13 +55,13 @@ BUT I recommend repeating patterns rather than full images. */
 body {
 background: url('https://wallpaperaccess.com/full/5102226.jpg') center center fixed;
 background-size: 100%;
-color: #e7eb82; } }
+color: #4F0D2A; } }
 
 @media screen and (max-width: 600px){
 body {
 background: url('https://wallpaperaccess.com/full/5102226.jpg') center center fixed;
 background-size: cover;
-color: #e7eb82; } }
+color: #4F0D2A; } }
 
 /* SCROLL BOXES */
  
@@ -98,7 +98,7 @@ Plan accordingly. */
  
 a:link,
 a:visited {
-color: #FF007F !important;
+color: #4F0D2A !important;
 background: none !important; }
    
 a:hover {
@@ -487,7 +487,7 @@ text-shadow: none !important; }
 .cave-grid,
 .mound-grid {
 background: rgba(41, 2, 53, 0.9) !important;
-color: #d48053 !important;
+color: #4F0D2A !important;
 border: 2px solid #280034 !important;
 border-radius: 10px !important; }
 
@@ -509,22 +509,22 @@ height: 120px; }
 
 div.cave-grid>img[src$="nestingbanner.png"] {
 	content: url('https://i.pinimg.com/1200x/69/86/b5/6986b5de3a36bf207d9a45a32dffca3a.jpg')!important; }
-a[href$="unsorted.php?id=564564"]>div.cave-grid>img{
+a[href$="unsorted.php?id=556232"]>div.cave-grid>img{
 content: url('https://png.pngtree.com/thumb_back/fw800/background/20240919/pngtree-amethyst-stones-background-purple-minerals-wallpaper-for-postcard-book-illustration-card-image_16232397.jpg')!important;
 width: 260px;
 height: 120px;}
-a[href*="lionoverview.php?id=564564"]>div.cave-grid>img {
+a[href*="lionoverview.php?id=556232"]>div.cave-grid>img {
 content: url('https://i.pinimg.com/736x/b3/ce/f1/b3cef1870eed1f3dd7e33e09d433265c.jpg')!important;
 width: 260px;
 height: 120px; }
 
-a[href$="unsorted-beetles.php?id=564564"] img {
+a[href$="unsorted-beetles.php?id=556232"] img {
 content:url('https://i.postimg.cc/br99x0fr/375fb1a8d0d7db1246f7c9ca549e9ac9-removebg-preview.png') !important;
 background-size: cover;
 width: 100%;
 height: auto; } 
 
-a[href$="mound.php?id=246211"] img {
+a[href$="mound.php?id=242645"] img {
 content:url('https://i.postimg.cc/br99x0fr/375fb1a8d0d7db1246f7c9ca549e9ac9-removebg-preview.png') !important;
 background-size: cover;
 width: 100%;
@@ -760,7 +760,7 @@ z-index: 100; }
         padding: 5px;
     }
     .pun-credit a {
-        color: #e7eb82 !important;
+        color: #4F0D2A !important;
     }
     .pun-credit a:hover {
         opacity: 1 !important;
@@ -789,7 +789,7 @@ z-index: 100; }
         font-size: 13px;
     }
     .pun-content a {
-        color: #9c4857 !important;
+        color: #4F0D2A !important;
         font-weight: normal !important;
         opacity: 0.5;
     }
@@ -798,7 +798,7 @@ z-index: 100; }
     }
     .pun-links {
         background: rgba(102, 66, 136, 0.9) !important;
-        color: #FF007F;
+        color: #4F0D2A;
         text-transform: uppercase;
         font-size: 14px;
         font-weight: normal;
@@ -807,7 +807,7 @@ z-index: 100; }
         border-radius: 5px;
     }
     .pun-links a {
-        color: #FF007F !important;
+        color: #4F0D2A !important;
     }
     .pun-graphics {
         background: rgba(102, 66, 136, 0.9) !important;
@@ -817,7 +817,7 @@ font-size: 16px;
         border-radius: 5px;
     }
     .pun-graphics a {
-        color: #FF007F !important;
+        color: #4F0D2A !important;
     }
 
 /* PAGEDOLL */
