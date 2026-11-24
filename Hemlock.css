@@ -477,22 +477,22 @@ height: 120px; }
 
 div.cave-grid>img[src$="nestingbanner.png"] {
 	content: url('https://i.pinimg.com/originals/0b/fa/f8/0bfaf8586506a256196213613e8da52e.gif')!important; }
-a[href$="unsorted.php?id=564564"]>div.cave-grid>img{
+a[href$="unsorted.php?id=527996"]>div.cave-grid>img{
 content: url('https://i.pinimg.com/originals/bc/c5/a7/bcc5a77c3411338efc340251a0bb8060.gif')!important;
 width: 260px;
 height: 120px;}
-a[href*="lionoverview.php?id=564564"]>div.cave-grid>img {
+a[href*="lionoverview.php?id=527996"]>div.cave-grid>img {
 content: url('https://i.pinimg.com/originals/6a/a3/7f/6aa37fd0017bdb291ca8cbdd8b0ede52.gif')!important;
 width: 260px;
 height: 120px; }
 
-a[href$="unsorted-beetles.php?id=564564"] img {
+a[href$="unsorted-beetles.php?id=527996"] img {
 content:url('https://i.postimg.cc/hPFJqWrb/602e075abe195d9b9ebacd51a415211b-removebg-preview.png') !important;
 background-size: cover;
 width: 100%;
 height: auto; } 
 
-a[href$="mound.php?id=246211"] img {
+a[href$="mound.php?id=229792"] img {
 content:url('https://i.postimg.cc/hPFJqWrb/602e075abe195d9b9ebacd51a415211b-removebg-preview.png') !important;
 background-size: cover;
 width: 100%;
