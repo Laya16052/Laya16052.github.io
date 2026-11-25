@@ -60,7 +60,7 @@ color: #ffffff; } }
 @media screen and (max-width: 600px){
 body {
 background: url('https://wallpaperaccess.com/full/1599421.jpg') center center fixed;
-background-size: cover;
+background-size: 100%;
 color: #ffffff; } }
 
 /* SCROLL BOXES */
