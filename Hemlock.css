@@ -54,7 +54,7 @@ BUT I recommend repeating patterns rather than full images. */
 @media screen and (min-width: 601px) { 
 body {
 background: url('https://wallpaperaccess.com/full/1599421.jpg') center center fixed;
-background-size: 100%;
+background-size: cover;
 color: #ffffff; } }
 
 @media screen and (max-width: 600px){
