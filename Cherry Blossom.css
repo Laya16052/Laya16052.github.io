@@ -38,13 +38,13 @@ box-shadow - a shadow behind the element itself. you usually want this set to no
  
 /* FONTS - Import from Google Fonts */
  
-@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap');
  
-body {font-family: "Cherry Bomb One", system-ui;}
+body {font-family: "Fontdiner Swanky", serif;}
  
-.topbar {font-family: "Cherry Bomb One", system-ui;}
+.topbar {font-family: "Fontdiner Swanky", serif;}
  
-.navbar {font-family: "Cherry Bomb One", system-ui;}
+.navbar {font-family: "Fontdiner Swanky", serif;}
 
 /* BACKGROUNDS 
 The first one is for PC, the second is for mobile. You can also use an image in the second one
@@ -69,9 +69,9 @@ color: #ffffff; } }
 width: 7px;
 height: 7px; }
 ::-webkit-scrollbar-track {
-background: #020346;}
+background: #db4243;}
 ::-webkit-scrollbar-thumb {
-background: #ff007f; } 
+background: #fbd2d2; } 
  
 /* HEADERS -
 H1 is the big header that says 'X's Den'
@@ -82,14 +82,14 @@ h1 {
 color: #ffffff !important;
 font-size: 64px;
 text-align: center !important;
-font-family: "Cherry Bomb One", system-ui;}
+font-family: "Fontdiner Swanky", serif;}
 
 h2 {
 color: #ffffff !important;
 font-size: 24px;}
 
 h3 {
-color: #ffffff !important;
+color: #e64b54 !important;
 font-size: 18px;}
  
 /* LINKS
@@ -98,18 +98,18 @@ Plan accordingly. */
  
 a:link,
 a:visited {
-color: #ffffff !important;
+color: #e45756 !important;
 background: none !important; }
    
 a:hover {
-color: #ffffff !important; }
+color: #f4bbc1 !important; }
  
 /* MAIN PANEL - The panel in front of your background image. Usually a solid color on Lioden.
 You can make it a solid color by either using a HEX code, or by setting the final number in RGBA to 1.0 */
    
 .container.main {
 background: rgba(183, 90, 109, 0.5);
-border: none;
+border: 2px solid #ffffff;
 box-shadow: none;
 border-radius: 5px; }
 .col-md-9 {
@@ -118,20 +118,20 @@ background: none; }
 /* TOPBAR, NAVBAR, & BREADCRUMB */
  
 .topbar {
-background: rgba(254, 203, 199, 0.5) !important;
+background: rgb(239, 200, 203, 0.8) !important;
 color: #ffffff !important;
-border: none !important;
+border: 2px solid #ffffff !important;
 border-radius: 0px !important;  }
  
 .navbar {
-background: rgba(254, 203, 199, 0.5) !important;
-color: #ffffff !important;
-border: none !important;
+background: rgb(253, 144, 147, 0.8) !important;
+color: #f4bbc1 !important;
+border: 2px solid #ffffff !important;
 border-radius: 0px !important; }
 
 .navbar li a:hover {
-background: rgba(250, 186, 210, 0.5) !important;
-color: #ff007f !important; }
+background: rgb(239, 200, 203, 0.8) !important;
+color: #ffffff!important; }
 
 /* This is mobile collapable navbar color changes.
 toggle is the button that opens the navbar
@@ -140,8 +140,8 @@ navbar-collapse is just there to hide the white line
 */
 
 .navbar-toggle {
-border: none !important;
-background: #020346 !important;
+border: 2px solid #ffffff !important;
+background: rgb(239, 200, 203, 0.8) !important;
 }
 
 .navbar-collapse {
@@ -153,12 +153,12 @@ border-top: none !important;
 /* Bookmark Bar - aka breadcrumb, this is where your link path is shown */
 
 .breadcrumb {
-background: rgba(247, 201, 201, 0.8) !important;
-color: #ffffff !important;
-border: none !important;
+background: rgb(229, 112, 112, 0.8) !important;
+color: #f4bbc1 !important;
+border: 2px solid #ffffff !important;
 border-radius: 0px !important;} 
 .breadcrumb .active {
-color: #ffffff; }
+color: #f4bbc1; }
  
 /* ALERTS 
 .alert is all alerts, only set this one if you want all alerts to be the same color
@@ -169,19 +169,19 @@ and danger the same color for best results
 (quick notice maybe? more research)*/
  
 .alert {
-background: rgba(247, 201, 201, 0.8) !important;
+background: rgb(226, 173, 179, 0.8) !important;
 color: #ffffff !important;
-border: none !important;
+border: 2px solid #ffffff !important;
 border-radius: 0px !important;
 text-align: center !important;  }
 .alert-warning {
-background: rgba(247, 201, 201, 0.8) !important;
+background: #HEX !important;
 color: #ffffff !important;}
 .alert-danger {
-background: rgba(247, 201, 201, 0.8) !important;
+background: #HEX !important;
 color: #ffffff !important;}
 .alert-success {
-background: rgba(247, 201, 201, 0.8) !important;
+background: #HEX !important;
 color: #ffffff !important;}
  
 
@@ -197,14 +197,14 @@ If you want the flippy floppy colors, where one is a little darker than the othe
 */
 
 div#commentBox {
-background: rgba(247, 208, 211, 0.6) !important;
-border: 1px solid #ff007f !important;
+background: rgb(253, 144, 147, 0.8) !important;
+border: 2px solid #ffffff !important;
 border-radius: 0px !important;
 color: #ffffff !important;}
 	
 .comment {     
 background: #HEX !important;
-border: 1px solid #ff007f !important;
+border: none !important;
 border-bottom: none !important;
 border-radius: 0px !important;
 color: #ffffff !important;
@@ -213,15 +213,15 @@ text-align: center !important;}
 color: #ffffff !important; }
 
 input.bad {
-background: #HEX !important;
+background: rgba(183, 90, 109, 0.5) !important;
 color: #ffffff !important;}
 input.bad a {
-color: #000000 !important; }
+color: #ffffff !important; }
 
 table#player.table hr {
 display: none !important; }
 table#player.table div.xlarge { 
-margin-top: 5px !important; }
+margin-top: 10px !important; }
 
  
 /* SIDE PANELS 
@@ -231,17 +231,17 @@ please note that the css provided by the site does NOT work on replaced images, 
 
 if you want a texture for your panels, using the cardboard texture as an example, the code will look like this:
 .panel {
-background-color: #040026;
-background-image: url("");
-color: #ff007f !important;
+background-color: #1000f2;
+background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
+color: #HEX !important;
 border: none !important;
 border-radius: 0px !important;
 box-shadow: none !important;  } */
  
 .panel {
-background: #f2a7ac !important;
+background: rgb(252, 175, 176, 0.8) !important;
 color: #ffffff !important;
-border: none !important;
+border: 2px solid #ffffff !important;
 border-radius: 0px !important;
 box-shadow: none !important;  }
    
@@ -251,18 +251,18 @@ to the colors you put here.
 Bars will also inherit the border-radius value from this one, so it's
 not needed to specify border-radius for all bars. */
 .progress-bar {
-background: #ed97a4 !important; 
+background: rgb(253, 167, 174, 0.8)  !important; 
 border-radius: 0px !important; }
 
 /* ENERGY */ .progress-bar-warning { 
-background: #ed97a4 !important;
+background: rgb(253, 144, 147, 0.8) !important;
 color: #ffffff !important;}
 /* HUNGER */ .progress-bar-danger { 
-background: #6f034b !important;
+background: rgb(219, 66, 67, 0.8) !important;
 color: #ffffff !important;}
 /* EXP + ACHIEVEMENTS */ .progress-bar-success { 
-background: #550c80 !important;
-color: #ffffff !important;}
+background: rgb(253, 167, 174, 0.8) !important;
+color: #ffffff!important;}
 
 /* This is the text that reads Energy: X% */
 .progress div {
@@ -270,82 +270,80 @@ color: #ffffff !important; }
 
 /* This is the background of the progress bars. */
 .progress {
-background:  #000000;
+background:  rgb(249, 239, 238, 0.4) ;
 color: #ffffff !important;
 border-radius: 0px !important;  }
-
-/* Icon Replacement - Warning
-used only for starving kings and last day of events */
 
 img[src$="icon_warning.png"] {
 content: url('https://i.postimg.cc/2yJPVpbV/f9032b283c13c866d7f87a5dfd5b8579-removebg-preview.png') !important;
 width: 24px !important; }
+
  
 /* CHAT */
 
 button#label_currentChannel {
-border: none !important;
-background: #000000 !important; }
+border: 2px solid #ffffff !important;
+background: rgb(235, 143, 140, 0.8) !important; }
 
 div#chatMessageContainer {
-border: none !important; }
-
-.s-chat-message_timestamp {
-color: #ff007f !important; }
-
-.s-chat-sidebar #fraChatChannelMenu,
-button.channelSwitcher, button.channelSwitcher.active {
-    background: #05004f !important;
-color: #ffffff !important;	
-border: none !important;
-border-radius: 0px !important;
-box-shadow: none !important; }
-
-div.emoteList.active {
-  background: #05004f !important;
-  border: 1px solid #ff007f !important;
-  box-shadow: none !important;
-}
-div.emoteList.active::before {
-background: #05004f;
-border-top: none !important;
-border: 1px solid #ff007f !important; }
+border: 2px solid #ffffff !important; }
 
 /* PINNED MESSAGES - This will change the background color of where staff pin news */
 
 .s-chat-message__pinned {
-background-color: #a211c6 !important;
+background-color: rgb(235, 143, 140, 0.8) !important;
 color: #ffffff !important;
-border: none !important; }
+border: 2px solid #ffffff !important; }
 
-/* Odd will show at the TOP of chat, even will show every other message under it. If you want both colors the same, do
-not touch the even/odd specifications */ 
-
-.s-chat-message {
-background: #762389 !important;
-color: #ffffff !important;
-border-bottom: #ff007f !important; }
+/* Odd will show at the TOP of chat, even will show every other message under it. If you want both colors the same, just copy and
+paste the code for each option*/ 
 
 .s-chat-message:nth-child(even) {
-background: rgba(183, 90, 109, 0.5) !important;
-border: none !important; }
+background: rgb(253, 144, 147, 0.8) !important;
+border: 2px solid #ffffff !important; }
 .s-chat-message:nth-child(odd) {
-background: #000000 !important;
-border: none !important; }
+background: rgb(253, 167, 174, 0.8) !important;
+border: 2px solid #ffffff !important; }
+
+.s-chat-message_timestamp {
+color: #ffffff !important; }
+
+/* Channel Selector */ 
+.s-chat-sidebar #fraChatChannelMenu,
+button.channelSwitcher, button.channelSwitcher.active {
+    background: rgb(240, 195, 196, 0.8) !important;
+color: #ffffff !important;	
+border: 2px solid #ffffff !important;
+border-radius: 0px !important;
+box-shadow: none !important; }
+
+/* Emote List
+Keep border-top on div.emoteList.active::before as none, otherwise you'll
+have a super weird gap between the emotelist and the little triangle*/
+
+div.emoteList.active {
+  background: rgb(235, 143, 140, 0.8) !important;
+  border: 2px solid #ffffff !important;
+  box-shadow: none !important;
+}
+div.emoteList.active::before {
+background: rgb(235, 143, 140, 0.8);
+border-top: none !important;
+border:  2px solid #ffffff !important; }
 
 /* This changes the color of pinged messages. Yes, it has to say background-color
 no it doesn't work if you just do background.
 may 8th: stop touchy */
 	
 #chatMessageList[data-pings="enabled"] .s-chat-message_mention {
-background-color: #020346 !important;
-border-left: 6px solid #ff007f !important;
+background-color: #HEX !important;
+border-left: 6px solid #HEX !important;
 color: #ffffff !important; }
 
 /* This is the character counter, that displays X/150 */
 
 div#lblCharacterCounter {
-color: #ffffff !important; }
+color: #ffffff!important; }
 
 /* I can't remember what this does but I know things get weird if you touch it
 that means do NOT touch it.
@@ -359,15 +357,15 @@ div.left controls BOTH the dynasty, achievements, showcase, beetle book AND
 view breeding requests, view user log, and view attack history buttons */
  
 .feature {
-background: #e6a7af !important;
-color: #ffffff !important;
-border: 3px double #b00d6d !important;
+background: rgb(235, 143, 140, 0.8) !important;
+color: #ea4646 !important;
+border: 2px solid #ffffff !important;
 border-radius: 0px !important;  }
 
 div.left {
-background: #e6a7af !important;
+background: rgb(253, 167, 174, 0.8) !important;
 color: #ffffff !important;
-border: none !important;
+border: 2px solid #ffffff !important;
 border-radius: 0px !important; }
 
 .xsmall {
@@ -378,8 +376,8 @@ Table - the background behind your table. You can make this a solid color by rep
 rgba(0, 0, 0, 0.0) with a HEX code, or by replacing the 0.0 with a 1.0 */
  
 .table {
-background: rgba(183, 90, 109, 0.7);
-border: none !important;
+background: rgb(207, 127, 122, 0.5);
+border: 2px solid #ffffff !important;
 border-collapse: separate;
 border-radius: 0px; }
 
@@ -389,9 +387,9 @@ th is every other header on your den, like sparring table, reclaim left lions,
 edit details, etc. */
 
 .top, .bottom, th {
-background: #05004f !important;
+background: rgb(241, 179, 184, 0.8) !important;
 color: #ffffff !important;
-border: none !important;
+border: 2px solid #ffffff !important;
 border-radius: 0px !important; }
 
 /* This removes the underline under the 'X mutations in your pride' link
@@ -406,46 +404,20 @@ info about your den, like your territory, your king's stats, etc.
 .inner-table .right is used by the boxes next to the king's info, that displays the actual info. */
  
 .table .left {
-background: rgba(1, 1, 1, 0.7);
+background: rgb(239, 200, 203, 0.8);
 border-radius: 0px !important; }
 
 .inner-table .left {
-background: #e6a7af !important;
+background: rgb(240, 195, 196, 0.8) !important;
 border-radius: 0px !important;  }
 
 .inner-table .right {
-background: #000000 !important;
+background: rgb(253, 167, 174, 0.8) !important;
 border-radius: 0px !important; 
-color: #ff007f !important; } 
+color: #ffffff !important; } 
 
 .right_odd {
 background: none !important; }
-
-/* CUSTOM KING TITLES
-Codes made by Pandora #144118  
-Codes may be edited, used in commissions or for personal use
-Please do not remove credit
-
-note: you can use both, one, or the other.
-if you don't want to use them, just delete this section.
-just don't use apostraphes (') in the actual text, that messes with the code
-*/
- 
-/* CUSTOM KING TITLE - AFTER */
- 
-#about > tbody > tr:nth-child(1) > td > div::after {
-    content:'';
-    font-size:17px;
-    
-}
- 
-/* CUSTOM KING TITLE - BEFORE */
- 
-#about > tbody > tr:nth-child(1) > td > div::before {
-    content:'';
-    font-size:17px;
-    
-}
 
 /* DEN ICON IMAGE REPLACEMENTS - These replace the custom images shown next to message, view trades, etc.
 if you don't want these changed, just do not edit this part. 
@@ -453,35 +425,31 @@ the names are pretty self explanatory
 you can also edit these if you want to add effects to YOUR player image and don't want it to be on these images */
 
 img[src$="icon_den_message.png"] {
-content: url('https://i.postimg.cc/0NQdHzHQ/2b8929a12da6e04d4cb60920307cbd19-removebg-preview.png') !important;
-width: 30px !important; }
+content: url('https://i.postimg.cc/RVSwF0PD/42bd4acf4dc12ef3f231ca0dc995e4d9-removebg-preview-ezgif-com-resize.png') !important;
+width: 24px !important; }
 
 img[src$="icon_den_gift.png"] {
-content: url('https://i.postimg.cc/VsRv5KkC/09814b684c73b1ead4491e8abb8c48ef-removebg-preview.png') !important;
-width: 30px !important; }
+content: url('https://i.postimg.cc/FzWz1hRq/147cabe9dba5b26d711c0915265d8c1b-removebg-preview-ezgif-com-resize.png') !important;
+width: 24px !important; }
 
 img[src$="icon_den_trade.png"] {
-content: url('https://i.postimg.cc/4ds2dfWw/2c7e511b2de1c92ec1fa918369e9ba13-removebg-preview.png') !important; 
+content: url('https://i.postimg.cc/SQvmXTVQ/9ed9ac83a7b0ca4eb40245eaad137dd6-removebg-preview1-ezgif-com-resize.png') !important; 
 width: 24px !important; }
 
 img[src$="icon_den_wishlist.png"] {
-content: url('https://i.postimg.cc/vTpW4XQG/e6a1c733caa4d6c6915e09491623d409-removebg-preview.png') !important;
+content: url('https://i.postimg.cc/sgRdStWR/a4ab02b5b6cfa2377a43d44d07b61f5e-removebg-preview-ezgif-com-resize.png') !important;
 width: 24px !important; }
 
 img[src$="icon_den_viewtrade.png"] {
-content: url('https://i.postimg.cc/fW3qRrKg/680ac848d6917d366cf200322a303035-removebg-preview.png') !important;
+content: url('https://i.postimg.cc/SQvmXTVQ/9ed9ac83a7b0ca4eb40245eaad137dd6-removebg-preview1-ezgif-com-resize.png') !important;
 width: 24px !important; }
 
 img[src$="icon_den_block.png"] {
-content: url('https://i.postimg.cc/d0LrjzLL/f0cf1433bc34cf69a7615f5b387aef2e-removebg-preview.png') !important;
+content: url('https://i.postimg.cc/ZnpZzZN2/4e65aec1d7be5bb94dbbe0ef1a1f47d2-removebg-preview-ezgif-com-resize.png') !important;
 width: 24px !important; }
 
 img[src$="icon_den_friend.png"] {
-content: url('https://i.postimg.cc/VLkygRBq/2da94c492e6f7c63e48babf66639460f-removebg-preview.png') !important;
-width: 24px !important; }
-
-img[src$="donator.png"] {
-content: url('https://i.postimg.cc/j2dszrSZ/68c0af5f95b4c9a75657d9dfde2edbf6-removebg-preview.png') !important;
+content: url('https://i.postimg.cc/BZrQY7D9/2da94c492e6f7c63e48babf66639460f-removebg-preview1-ezgif-com-resize.png') !important;
 width: 24px !important; }
 
 /* LION AND USER AVATAR OPACITY */
@@ -499,12 +467,12 @@ otherwise it can make your navbar look weird.
 192x120 */
    
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('https://i.imgur.com/4J0WLAp.png');
+	content: url('https://i.postimg.cc/50XwfKnw/592672563e77993d83588433d426c4bc-removebg-preview.png');
 height: 150px !important;   /* matches official logo height */
     top: -25%;                 /* adjust if you want it lower/higher */
     position: relative;        /* ensures top offset works */
 }
-
+ 
 /* TEXT BOXES & BUTTONS -
 all text boxes and buttons will be whatever color you put in here
 you can separate them, just by copy and pasting names and the css code behind it
@@ -514,8 +482,8 @@ textarea, select, button.button, a.btn.btn-default.button {background: white !im
  
 input, textarea, select, button.button,
 a.btn.btn-default.button {
-background: #000000 !important;
-border: none !important;
+background: rgb(244, 187, 193, 0.8) !important;
+border:2px solid #ffffff !important;
 border-radius: 0px !important;
 color: #ffffff !important;
 text-shadow: none !important; }
@@ -524,9 +492,9 @@ text-shadow: none !important; }
  
 .cave-grid,
 .mound-grid {
-background: rgba(247, 208, 211, 0.8) !important;
-color: #ffffff !important;
-border: none !important;
+background: rgb(240, 195, 196, 0.8) !important;
+color: #e45756 !important;
+border: 2px solid #ffffff !important;
 border-radius: 0px !important; }
 
 /* CAVE & MOUND COVERS
@@ -541,37 +509,35 @@ you can copy and paste for more caves or mounds than what's provided
 */
 
 div.cave-grid>img {
-content: url('https://www.icegif.com/wp-content/uploads/2022/03/icegif-581.gif')!important;
+content: url('https://i.pinimg.com/originals/3d/68/f8/3d68f87c3dae2797a3378178c798d16b.gif')!important;
 width: 260px;
 height: 120px; }
 
-
 div.cave-grid>img[src$="nestingbanner.png"] {
-	content: url('https://i.pinimg.com/originals/4f/b8/c5/4fb8c5f9845dfdc3c04f3cb8665d344d.gif')!important; }
-a[href$="unsorted.php?id=577399"]>div.cave-grid>img{
-content: url('https://i.pinimg.com/originals/50/d4/f0/50d4f00d61bae052bbee03c64c62767d.gif')!important;
+	content: url('https://i.pinimg.com/originals/0f/ef/71/0fef715ee3018b243abbe3d14cdaeb91.gif')!important; }
+a[href$="unsorted.php?id=564564"]>div.cave-grid>img{
+content: url('https://i.pinimg.com/originals/4f/b8/c5/4fb8c5f9845dfdc3c04f3cb8665d344d.gif')!important;
 width: 260px;
 height: 120px;}
-
-a[href*="lionoverview.php?id=577399"]>div.cave-grid>img {
-content: url('https://i.pinimg.com/originals/50/d4/f0/50d4f00d61bae052bbee03c64c62767d.gif')!important;
+a[href*="lionoverview.php?id=564564"]>div.cave-grid>img {
+content: url('https://i.pinimg.com/originals/12/c3/8e/12c38e7eb1693e3adcd5fb68aa25ab1f.gif')!important;
 width: 260px;
 height: 120px; }
 
 a[href$="unsorted-beetles.php?id=564564"] img {
-content:url('https://i.postimg.cc/xCHP2WGq/858977bdec0284115f92cfc103d76077-removebg-preview.png') !important;
+content:url('https://i.postimg.cc/N0M5wmc4/1ede2a90672508daed975440c26f74e0-removebg-preview.png') !important;
 background-size: cover;
 width: 100%;
 height: auto; } 
 
 a[href$="mound.php?id=246211"] img {
-content:url('https://i.postimg.cc/xCHP2WGq/858977bdec0284115f92cfc103d76077-removebg-preview.png') !important;
+content:url('https://i.postimg.cc/N0M5wmc4/1ede2a90672508daed975440c26f74e0-removebg-preview.png') !important;
 background-size: cover;
 width: 100%;
 height: auto; } 
 
 a[href$="mound.php?id=266774"] img {
-content:url('https://i.postimg.cc/xCHP2WGq/858977bdec0284115f92cfc103d76077-removebg-preview.png') !important;
+content:url('https://i.postimg.cc/N0M5wmc4/1ede2a90672508daed975440c26f74e0-removebg-preview.png') !important;
 background-size: cover;
 width: 100%;
 height: auto; } 
@@ -581,29 +547,30 @@ Codes may be edited, used in commissions or for personal use
 Please do not remove credit
 */
  
+
 /* KING DYNASTY */
 img[src$="den_ancestors.png"] {
-    content:url('https://i.postimg.cc/Dz3ZNHzZ/d2de4d38410ae1c37e5e91adb5e17e17-removebg-preview.png')!important;
+    content:url('https://i.postimg.cc/xCHP2WGq/858977bdec0284115f92cfc103d76077-removebg-preview.png')!important;
     width:185px!important; }
  
 /* PRIDE DYNASTY */
 img[src$="ancestorsfem.png"] {
-    content:url('https://i.postimg.cc/Dz3ZNHzZ/d2de4d38410ae1c37e5e91adb5e17e17-removebg-preview.png')!important;
+    content:url('https://i.postimg.cc/xCHP2WGq/858977bdec0284115f92cfc103d76077-removebg-preview.png')!important;
     width:185px!important; }
  
 /* ACHIEVMENTS */
 img[src$="den_achievements.png"] {
-    content:url('https://i.postimg.cc/Dz3ZNHzZ/d2de4d38410ae1c37e5e91adb5e17e17-removebg-preview.png')!important;
+    content:url('https://i.postimg.cc/xCHP2WGq/858977bdec0284115f92cfc103d76077-removebg-preview.png')!important;
     width:185px!important; }
  
 /* SHOWCASE */
 img[src$="den_showcase.png"] {
-    content:url('https://i.postimg.cc/Dz3ZNHzZ/d2de4d38410ae1c37e5e91adb5e17e17-removebg-preview.png')!important;
+    content:url('https://i.postimg.cc/xCHP2WGq/858977bdec0284115f92cfc103d76077-removebg-preview.png')!important;
     width:185px!important; }
 
 /* BEETLE BOOK */
 img[src$="den_beetlebook.png"] {
-    content:url('https://i.postimg.cc/Dz3ZNHzZ/d2de4d38410ae1c37e5e91adb5e17e17-removebg-preview.png')!important;
+    content:url('https://i.postimg.cc/xCHP2WGq/858977bdec0284115f92cfc103d76077-removebg-preview.png')!important;
     width:185px!important; }
 
 /* CAVE COMPATIBILITY
@@ -619,9 +586,9 @@ table#pride.table .xsmall just puts the lion subtext back to its regular size, s
 .xsmalls earlier when fixing FAPA. you can remove this if you want the bigger text. */
 
 .featured-lion {
-background: #HEX !important;
+background: rgb(235, 143, 140, 0.8) !important;
 color: #ffffff !important;
-border: none !important;
+border: 2px solid #ffffff !important;
 border-radius: 0px !important;
 padding: 0;
 margin: 0 auto;
@@ -630,7 +597,7 @@ font-weight: bold;
 font-size: 14px; }
 
 img[src*="cave/default"] {
-content: url('IMG LINK') !important;}
+content: url('https://i.pinimg.com/736x/b4/6c/84/b46c84095b3b9a9a84bb49a4cdee775d.jpg') !important;}
 
 table#pride.table, table#pride.table a, table#pride.table a:visited {
 color: #ffffff !important; }
@@ -642,7 +609,7 @@ table#pride.table .xsmall
 days till heat for lionesses */
 
 .badge {
-background: #HEX !important;
+background: rgb(32, 84, 15, 0.8) !important;
 color: #ffffff !important; }
 	
 / * NO LINK UNDERLINE - This removes Link underlines at the links at the bottom of the page,
@@ -654,109 +621,16 @@ border-bottom: none !important; }
 td.bottom a, th a {
 border-bottom: none !important; }
 
-/* BOXES
-do not give the box container a background.
-Box1, Box2, & Box3 can be repeated as many times as possible, just make sure you properly close them.
-box html should look like this
-<div class="boxcontainer"><div class="Box1">text</div></div>
-<div class="boxcontainer"><div class="Box3">text</div><div class="Box2">text</div></div> */
-
-.boxcontainer {
-	background: none;
-	height: auto;
-	padding: 0px;
-	justify-content: center;
-	display: flex
-}
-
-.smallhoverbox {
-	float: left;
-	background: rgba(246, 155, 164, 0.5);
-	color: #ffffff;
-	padding: 10px;
-	border: 1px solid #fecbc7;
-	border-radius: 0px;
-	margin: 10px;
-	height: 50px;
-	width: 43.8%;
-	overflow: auto;
-        transition: 3s;
-}
-
-.smallhoverbox:hover {
-	height: 150px;
-	width: 43.8%;
-}
-
-.mediumhoverbox {
-	float: left;
-	background: rgba(246, 155, 164, 0.5);
-	color: #ffffff;
-	padding: 10px;
-	border: 1px solid #fecbc7;
-	border-radius: 10px;
-	margin: 10px;
-	height: 50px;
-	width: 43.8%;
-	overflow: auto;
-        transition: 3s;
-}
-
-.mediumhoverbox:hover {
-	height: 150px;
-	width: 43.8%;
-}
-
-.largehoverbox {
-	float: left;
-	background: rgba(246, 155, 164, 0.5);
-	color: #ffffff;
-	padding: 10px;
-	border: 1px solid #fecbc7;
-	border-radius: 10px;
-	margin: 10px;
-	height: 50px;
-	width: 90%;
-	overflow: auto;
-        transition: 3s;
-}
-
-.largehoverbox:hover {
-	height: 150px;
-	width: 90%;
-}
-
-/* MOBILE ONLY BOXES 
-- these will only display on mobile. use if you want a more simplified box for mobile.
-mobile box html should look like this
-<div class="mobilebox">text</div> 
-if you don't want mobile only boxes, delete everything from below this to above cave covers */
-
-.mobilebox {
-float: center;
-background: rgba(230, 167, 175, 0.8) !important;
-border: 1px solid #ff007f !important;
-border-radius: 0px !important;
-color: #ffffff !important;
-margin: 10px;
-padding: 10px;
-float: center;
-height: 155px;
-width: 90%;
-overflow: auto;
-transition: 1s }
-
-
 @media only screen and (max-width: 991px) and (min-width: 768px) {
 
-		.largebox, .mediumbox, .smallbox, .boxcontainer {
+		.Box1, .Box2, .Box3, .boxcontainer {
 			display: none !important;
 		display: block !important; }
 }
 
 @media only screen and (max-width: 1199px) and (min-width: 992px) {
 
-		.largebox, .mediumbox, .smallbox, .boxcontainer {
+		.Box1, .Box2, .Box3, .boxcontainer {
 			display: none !important;
 		}
 
@@ -764,7 +638,7 @@ transition: 1s }
 
 	@media only screen and (max-width: 991px) and (min-width: 768px) {
 
-		.largbox, .mediumbox, .smallbox, .boxcontainer {
+		.Box1, .Box2, .Box3, .boxcontainer {
 			display: none !important;
 		}
 
@@ -772,7 +646,7 @@ transition: 1s }
 
 	@media only screen and (max-width: 767px) {
 
-		.largebox, .mediumbox, .smallbox, .boxcontainer {
+		.Box1, .Box2, .Box3, .boxcontainer {
 			display: none !important;
 		}
 }
@@ -786,7 +660,7 @@ transition: 1s }
 
 .mobilebox, .mobcontainer {
 display: block !important; }
-.largebox, .mediumbox, .smallbox, .boxcontainer  {
+.Box1, .Box2, .Box3, .boxcontainer  {
 display: none !important; }	}
 
 @media only screen and (max-width: 767px) {
@@ -820,7 +694,7 @@ or fill out both i can't stop you but it'll be a clusterfuck */
 /* MEMBER ONLINE */
 .member-online {
     background: none;
-    content:url('https://i.pinimg.com/originals/95/b5/a4/95b5a49f5127570e435d8d488d52baa4.gif')!important;
+    content:url('https://i.postimg.cc/5y1Ns6YY/ezgif-com-remove-background-(4).gif')!important;
 	border-radius: 0px;
     width:40px!important;
     height:40px;
@@ -830,7 +704,7 @@ or fill out both i can't stop you but it'll be a clusterfuck */
 /* MEMBER OFFLINE */
 .member-offline {
     background: none;
-    content:url('https://i.pinimg.com/originals/61/af/04/61af0465d965fb6869d9bb5feb208a25.gif')!important;
+    content:url('https://i.postimg.cc/QtR35mz6/ezgif-com-remove-background.gif')!important;
 	border-radius: 0px;
     width:40px!important;
     height:40px;
@@ -838,25 +712,26 @@ or fill out both i can't stop you but it'll be a clusterfuck */
 	margin-left:10px;
 	filter: saturate(0%); }
 
+	
 /* IF YOU WANT A CUSTOM CURSOR GO TO https://www.cursors-4u.com/
 AND COPY AND PASTE THE PROVIDED CODE ONCE YOU CLICK THE GET HTML/CSS CODE BUTTON
 DO IT BELOW THIS POINT BUT BEFORE THE CREDIT */
+	
+/* CREDIT - no touchy this part, the code will work just fine */
+ 
+.breadcrumb::after {
+content: "CSS by Laya16052 (#564564/577399)";
+color: #ffffff;
+position: absolute;
+right: 13%;
+z-index: 100; }
 
-	/* WIND BREAKER Sakura Haruka Windchime Pointer - https://www.cursors-4u.com/cursor/wind-breaker-sakura-haruka-windchime-pointer */
+/* WIND BREAKER Sakura Haruka Windchime Pointer - https://www.cursors-4u.com/cursor/wind-breaker-sakura-haruka-windchime-pointer */
 * {
   cursor: url('https://cdn.cursors-4u.net/previews/wind-breaker-sakura-haruka-windchime-custom-cursor-2d49dd35-128.webp') 34 6, auto !important;
 }
 /* End www.Cursors-4U.com Code */
 
-/* CREDIT - no touchy this part, the code will work just fine */
- 
-.breadcrumb::after {
-content: "CSS by Laya16052 (#564564/#577399)";
-color: #ffffff;
-position: absolute;
-right: 13%;
-z-index: 100; }
-		
 @media only screen and (max-width: 1199px) and (min-width: 992px)  {
         .breadcrumb::after {
             right: 20%;
@@ -875,21 +750,34 @@ z-index: 100; }
         }
     }
 
+( for Removing the border ) 
+
+/* tables */
+        .table {
+            background: none;
+            color: #000d1a !important;
+            border: none !important;
+            border-collapse: separate;
+            border-radius: 5px;
+            box-shadow: none !important;
+        }
+
+
 /* CUSTOM LAYOUTS (CODE MADE BY #139 ON LIODEN) */
     .pun-credit {
-        position: left;
+        position: fixed;
         bottom: 0px;
         right: 0px;
-        color: #000000 !important;
-        font-size: 18px;
+        color: #ffffff !important;
+        font-size: 10px;
         letter-spacing: 2px;
         text-transform: uppercase;
         text-align: center;
-        background: rgba(192, 136, 147, 0.5);
+        background: rgb(240, 195, 196, 0.8);
         padding: 5px;
     }
     .pun-credit a {
-        color: #ffffff !important;
+        color: #e45756 !important;
     }
     .pun-credit a:hover {
         opacity: 1 !important;
@@ -900,24 +788,25 @@ z-index: 100; }
     }
     .pun-table {
         width: 640px;
-        background: url('https://i.pinimg.com/originals/81/ab/91/81ab914b0a2d7c2e6ae588b1d8abdae6.gif');
+        background: url('https://i.pinimg.com/736x/cb/b1/ca/cbb1ca6cea15513b808429a66af051bc.jpg');
+    }
     .pun-spacer {
         background: none;
         width: 320px;
     }
     .pun-content {
-        background: rgba(192, 136, 147, 0.5) !important;
+        background: rgb(241, 179, 184, 0.8) !important;
         color: #ffffff;
-        text-align: justify;
+        text-align: center;
         height: 400px;
         overflow: auto;
-        width: 280px;
-        padding: 16px;
+        width: 350px;
+        padding: 20px;
         border-radius: 4px;
-        font-size: 16px;
+        font-size: 12px;
     }
     .pun-content a {
-        color: #ffffff !important;
+        color: #ea4646 !important;
         font-weight: normal !important;
         opacity: 0.5;
     }
@@ -925,32 +814,31 @@ z-index: 100; }
         opacity: 1 !important;
     }
     .pun-links {
-        background: rgba(192, 136, 147, 0.5) !important;
-        color: #ffffff;
+        background: rgb(240, 195, 196, 0.8) !important;
+        color: #e45756;
         text-transform: uppercase;
-        font-size: 16px;
+        font-size: 11px;
         font-weight: normal;
         letter-spacing: 1px;
         text-align: center;
         border-radius: 5px;
     }
     .pun-links a {
-        color: #ffffff !important;
+        color: #e45756 !important;
     }
     .pun-graphics {
-        background: rgba(192, 136, 147, 0.5) !important;
+        background: rgb(240, 195, 196, 0.8) !important;
         color: #ffffff;
-font-size: 16px;
         text-align: center;
         border-radius: 5px;
     }
     .pun-graphics a {
-        color: #ffffff !important;
+        color: #e45756 !important;
     }
-		
+	
 /* PAGEDOLL */
 .container.main::before {
-background-image: url('https://i.postimg.cc/N0M5wmc4/1ede2a90672508daed975440c26f74e0-removebg-preview.png');
+background-image: url('https://i.postimg.cc/50XwfKnw/592672563e77993d83588433d426c4bc-removebg-preview.png');
 background-size: contain;
 background-repeat: no-repeat;
 position: fixed;
@@ -961,3 +849,4 @@ right:-0px;
 bottom: -10px;
 z-index: 100;
 pointer-events: none;
+
