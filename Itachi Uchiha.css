@@ -804,7 +804,7 @@ z-index: 100; }
     .pun-content {
         background: rgba(5, 1, 0,0.7) !important;
         color: #ffffff;
-        text-align: justify;
+        text-align: center;
         height: 400px;
         overflow: auto;
         width: 280px;
